@@ -1,0 +1,77 @@
+.main__Navbar {
+  background-color: #2a2f4d;
+  width: 5%;
+  min-width: 100px;
+  // overflow: hidden;
+  // display: flex;
+  // flex-direction: row;
+  position: fixed; /* Fixed Sidebar (stay in place on scroll and position relative to viewport) */
+  height: 100%;
+  // width: 75px; /* Set the width of the sidebar */
+  z-index: 1; /* Stay on top of everything */
+  overflow: auto; /* Disable horizontal scroll */
+  padding-top: 10px;
+  ul {
+    padding: 0;
+    margin: 0;
+    // padding: 30px;
+    li {
+      color: #d7d3d3;
+      list-style: none;
+      padding: 30px;
+      padding-top: 7.5px;
+      cursor: pointer;
+    }
+    li:nth-child(7) {
+      position: absolute;
+      bottom: 80px;
+    }
+    li:nth-child(6) {
+      position: absolute;
+      bottom: 160px;
+    }
+    li:nth-child(5) {
+      position: absolute;
+      bottom: 240px;
+    }
+    li:nth-child(4) {
+      position: absolute;
+      bottom: 310px;
+    }
+    li:last-child {
+      padding-left: 20px;
+      position: absolute;
+      bottom: 0;
+    }
+  }
+}
+
+.layout__main {
+  width: 90%;
+  margin-left: 120px;
+  display: flex;
+}
+.asdsad {
+  height: 100vh;
+  .MuiDivider-vertical {
+    width: 1px;
+    float: right;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    li {
+      list-style: none;
+      padding: 10px;
+      border-radius: 12px;
+      padding-left: 14px;
+      cursor: pointer;
+    }
+    li:nth-child(1) {
+      color: #73c5f1;
+      background-color: #ccebff;
+      font-weight: 500;
+    }
+  }
+}
