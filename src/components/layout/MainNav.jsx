@@ -69,7 +69,7 @@ const useStyles = makeStyles((theme) => ({
 function MainNav() {
   const classes = useStyles();
   return (
-    <div className="asdsad d-flex align-content-end ">
+    <div className="mainnav d-flex align-content-end ">
       <div>
         <div className="mr-auto">
           <h5 className="p-3 ">Workspaces</h5>
